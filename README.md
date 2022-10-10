@@ -2,7 +2,7 @@
 
 > Status: :construction: Em desenvolimento :construction:<br>
 
-<br>Para rodar esse projeto na sua maquina, basta baixar os arquivos .html e .css e guardalos dentro de uma mesma pasta.
+<br>Para rodar esse projeto na sua maquina, basta baixar os arquivos .html e .css e guardá-los dentro de uma mesma pasta.
 
 
 <h3>Autores</h3>
