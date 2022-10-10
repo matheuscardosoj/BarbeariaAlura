@@ -1,4 +1,4 @@
-<h1 align="center">Sistema de cadastro de jogos</h1><br>
+<h1 align="center">Barbearia Alura</h1><br>
 
 > Status: :construction: Em desenvolimento :construction:<br>
 
