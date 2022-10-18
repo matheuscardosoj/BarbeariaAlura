@@ -1,3 +1,10 @@
+/* css do cabeçalho padrão*/
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -32,6 +39,57 @@ nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
+
+/* css do rodapé padrão*/
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* css do main da pagina inicial*/
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
+
+/* css do main da pagina de produtos*/
 
 .produtos {
     width: 940px;
@@ -79,22 +137,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-footer {
-    text-align: center;
-    background: url("bg.jpg");
-    padding: 40px 0;
-}
-
-.copyright {
-    color: #FFFFFF;
-    font-size: 13px;
-    margin-top: 20px;
-}
-
-main {
-    width: 940px;
-    margin: 0 auto;
-}
+/* css do main da pagina de contato*/
 
 form {
     margin: 40px 0;
@@ -132,7 +175,7 @@ form label, form legend {
 
 .enviar:hover {
     background: darkorange;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 table {
