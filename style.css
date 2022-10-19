@@ -255,3 +255,47 @@ td, th {
     padding: 8px 15px;
     text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .conteudo-formulario {
+        width: auto;
+    }
+
+    form {
+        padding: 40px 20px;
+    }
+
+    table {
+        margin-left: 20px;
+    }
+
+    .enviar {
+        width: 50%;
+    }
+
+    .produtos {
+        padding: 0;
+    }
+
+    .input-padrao {
+        border-color: #000000;
+    }
+
+    .produtos li {
+        display: block;
+        width: auto;
+        margin: 1.5em;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
