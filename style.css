@@ -73,7 +73,7 @@ footer {
     margin: 0 auto;
 }
 
-.img-utensilios {
+.imagem-utensilios {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
@@ -135,6 +135,13 @@ footer {
 
 .imagem-beneficios {
     width:60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
@@ -160,12 +167,12 @@ footer {
     box-sizing: border-box;
     border: 3px solid #000000;
     border-radius: 10px;
-    transition: 1s transform;
+    transition: 0.7s transform;
 }
 
 .produtos li:hover {
     border-color: #C78C19;
-    transform: scale(1.05);    
+    transform: scale(1.04);    
 }
 
 .produtos li:active {
